@@ -1,0 +1,4 @@
+# app-ads.txt — AdMob yetkili satıcı beyanı.
+# Bu dosya, App Store sayfanızdaki "Geliştirici web sitesi" (Marketing URL) alan adının KÖKÜNDE
+# yayımlanmalıdır: https://ALAN-ADINIZ/app-ads.txt
+google.com, pub-3823621544804062, DIRECT, f08c47fec0942fa0
