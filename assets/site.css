@@ -111,8 +111,12 @@ main {
 .card h3 {
   margin: 0 0 6px;
 }
-.card .emoji {
-  font-size: 34px;
+.card .icon {
+  color: var(--sky1);
+}
+.card .icon .ico {
+  width: 36px;
+  height: 36px;
 }
 h1.page {
   margin: 0 0 4px;
@@ -157,10 +161,4 @@ footer {
   color: var(--muted);
   font-size: 14px;
   padding: 24px 16px 40px;
-}
-.todo {
-  background: #fff3b0;
-  color: #5a3d00;
-  padding: 0 4px;
-  border-radius: 4px;
 }
