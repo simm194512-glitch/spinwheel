@@ -162,3 +162,7 @@ footer {
   font-size: 14px;
   padding: 24px 16px 40px;
 }
+
+.hero a.on-hero {
+  color: #fff;
+}

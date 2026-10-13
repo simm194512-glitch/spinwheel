@@ -2,6 +2,8 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'self'; form-action 'none'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sayfa bulunamadı — Teker Fırlat</title>
     <link rel="icon" href="assets/favicon.png" />
@@ -10,7 +12,7 @@
   <body>
     <header class="hero">
       <h1>404</h1>
-      <p>Bu teker çok uzağa fırlamış! <a href="index.html" style="color: #fff">Ana sayfaya dön</a></p>
+      <p>Bu teker çok uzağa fırlamış! <a class="on-hero" href="index.html">Ana sayfaya dön</a></p>
     </header>
   </body>
 </html>

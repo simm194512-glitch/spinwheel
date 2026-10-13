@@ -1,0 +1,5 @@
+Contact: mailto:simm194512@gmail.com
+Expires: 2027-09-29T00:00:00.000Z
+Preferred-Languages: tr, en
+Canonical: https://simm194512-glitch.github.io/spinwheel/.well-known/security.txt
+Policy: https://simm194512-glitch.github.io/spinwheel/support.html

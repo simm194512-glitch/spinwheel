@@ -2,6 +2,8 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'self'; form-action 'none'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gizlilik Politikası — Teker Fırlat</title>
     <link rel="canonical" href="https://simm194512-glitch.github.io/spinwheel/privacy.html" />
@@ -18,7 +20,7 @@
     <main>
       <a class="lang-switch" href="#english">English</a>
       <h1 class="page">Gizlilik Politikası</h1>
-      <p class="updated">Yürürlük tarihi: 29 Eylül 2026</p>
+      <p class="updated">Yürürlük tarihi: 13 Ekim 2026</p>
 
       <p>
         Bu politika, <b>Teker Fırlat</b> mobil oyununun (“Uygulama”) hangi verileri nasıl işlediğini açıklar.
@@ -32,8 +34,18 @@
         gibi kişisel verileri <b>toplamayız</b> ve sunucularımıza hiçbir veri göndermeyiz.
       </p>
       <p>
-        Oyun ilerlemen (coin, geliştirme seviyeleri, satın alınan/seçili kostümler, en iyi skor, ses/titreşim
-        ayarları) <b>yalnızca cihazında</b> saklanır. Bu veriler bize iletilmez; uygulamayı sildiğinde silinir.
+        Oyun ilerlemen (coin, elmas, geliştirme seviyeleri, satın alınan/seçili kostümler, günlük ödül serisi,
+        en iyi skor, ses/titreşim ayarları) <b>yalnızca cihazında</b> saklanır. Bu veriler bize iletilmez;
+        uygulamayı sildiğinde silinir.
+      </p>
+      <p>
+        <b>Uygulama içi satın almalar</b> iOS'ta Apple (App Store), Android'de Google (Google Play) tarafından
+        işlenir; ödeme bilgilerini görmeyiz.
+        Satın almaların doğrulanması ve geri yüklenmesi için <b>RevenueCat, Inc.</b> hizmetini kullanırız:
+        RevenueCat, rastgele üretilmiş anonim bir kullanıcı kimliğiyle satın alma geçmişini (ürün, tarih, fiyat,
+        ülke) ve iOS'ta Apple Search Ads atıf jetonunu işler; adın veya e-postan paylaşılmaz. Ayrıntılar:
+        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat Gizlilik Politikası</a>.
+        Apple'ın veya Google'ın işlediği veriler için ilgili şirketin gizlilik politikası geçerlidir.
       </p>
 
       <h2>2. Reklamlar (Google AdMob)</h2>
@@ -44,7 +56,7 @@
       </p>
       <table>
         <tr><th>Veri</th><th>Amaç</th></tr>
-        <tr><td>Reklam tanımlayıcısı (IDFA) — <i>yalnızca izin verirsen</i></td><td>Kişiselleştirilmiş reklam, ölçüm</td></tr>
+        <tr><td>Reklam tanımlayıcısı (iOS'ta IDFA — <i>yalnızca izin verirsen</i>; Android'de Google reklam kimliği)</td><td>Kişiselleştirilmiş reklam, ölçüm, dolandırıcılık önleme</td></tr>
         <tr><td>IP adresi ve buna dayalı yaklaşık konum (ülke/şehir)</td><td>Reklam sunumu, dolandırıcılık önleme</td></tr>
         <tr><td>Cihaz bilgileri (model, işletim sistemi, dil, ekran)</td><td>Reklamın cihaza uygun gösterilmesi</td></tr>
         <tr><td>Reklam etkileşimleri (gösterim, tıklama, izleme süresi)</td><td>Ölçüm, sıklık sınırlama, analiz</td></tr>
@@ -52,8 +64,8 @@
       </table>
       <p>
         Google'ın veri işleme uygulamaları için:
-        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google iş ortağı sitelerinde veri kullanımı</a>
-        ve <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>.
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google iş ortağı sitelerinde veri kullanımı</a>
+        ve <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a>.
       </p>
 
       <h2>3. İzinler ve tercihlerin</h2>
@@ -64,10 +76,16 @@
           <i>Ayarlar &gt; Gizlilik ve Güvenlik &gt; İzlenme</i> bölümünden her zaman değiştirebilirsin.
         </li>
         <li>
+          <b>Android reklam kimliği:</b> <i>Ayarlar &gt; Gizlilik &gt; Reklamlar</i> (bazı cihazlarda
+          <i>Ayarlar &gt; Google &gt; Reklamlar</i>) bölümünden reklam kimliğini silebilir veya sıfırlayabilirsin.
+          Silersen reklamlar kişiselleştirilmez.
+        </li>
+        <li>
           <b>AEA, Birleşik Krallık ve İsviçre:</b> Google'ın onay yönetim platformu (UMP) üzerinden onay
           istenir. Tercihini oyun içinde <i>Ayarlar &gt; Reklam Gizlilik Tercihleri</i> ile değiştirebilirsin.
         </li>
-        <li>Oynanış sırasında reklam gösterilmez; ödüllü reklamları izlemek tamamen isteğe bağlıdır.</li>
+        <li>Oynanış sırasında reklam gösterilmez; ödüllü reklamları izlemek tamamen isteğe bağlıdır.
+          “Reklamları Kaldır” satın alındığında geçiş, açılış ve banner reklamları gösterilmez.</li>
       </ul>
 
       <h2>4. Çocuklar</h2>
@@ -97,7 +115,7 @@
       <hr />
 
       <h1 class="page" id="english">Privacy Policy (English)</h1>
-      <p class="updated">Effective date: September 29, 2026</p>
+      <p class="updated">Effective date: October 13, 2026</p>
       <p>
         This policy explains how the <b>Teker Fırlat</b> mobile game (“App”) handles data. Controller:
         the developer of the Teker Fırlat app. Contact:
@@ -109,17 +127,26 @@
         Game progress (coins, upgrades, costumes, best score, settings) is stored <b>only on your device</b>
         and is deleted when you uninstall the App.
       </p>
+      <p>
+        In-app purchases are processed by Apple (App Store) on iOS and by Google (Google Play) on Android; we never
+        see your payment details. To validate and restore purchases we use <b>RevenueCat, Inc.</b>, which processes
+        your purchase history (product, date, price, country) with a randomly generated anonymous user ID and, on iOS,
+        the Apple Search Ads attribution token. See the
+        <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat Privacy Policy</a>.
+      </p>
       <h2>Advertising (Google AdMob)</h2>
       <p>
-        The App is free and shows ads via Google AdMob. Google may collect the advertising identifier (IDFA,
-        only with your permission), IP address and approximate location derived from it, device information,
+        The App is free and shows ads via Google AdMob. Google may collect the advertising identifier (IDFA on iOS,
+        only with your permission; Google advertising ID on Android), IP address and approximate location derived
+        from it, device information,
         ad interactions and diagnostics, for ad delivery, measurement, frequency capping and fraud prevention.
-        See <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.
+        See <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use its services</a>.
       </p>
       <h2>Your choices</h2>
       <p>
         iOS asks for tracking permission (App Tracking Transparency); you can change it anytime in
-        <i>Settings &gt; Privacy &amp; Security &gt; Tracking</i>. Users in the EEA/UK/Switzerland are asked for consent
+        <i>Settings &gt; Privacy &amp; Security &gt; Tracking</i>. On Android you can delete or reset your advertising ID in
+        <i>Settings &gt; Privacy &gt; Ads</i> (or <i>Settings &gt; Google &gt; Ads</i>). Users in the EEA/UK/Switzerland are asked for consent
         via Google's UMP and can change it in the in-game Settings &gt; “Ad Privacy Choices”. No ads are shown
         during gameplay; rewarded ads are optional.
       </p>
